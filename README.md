@@ -6,7 +6,7 @@ you can run the code [here](https://www.openprocessing.org/sketch/736065) if you
 ![Terrain-Generator](https://user-images.githubusercontent.com/50847107/61155398-f2b7c600-a544-11e9-9793-473b121add6a.png)
 
 ## Notes
-ProcessingJS's noiseSeed() and randomSeed() do not change anything (I think this may be a bug) so the noise() seed is always the same. to counter this, I just added a random number to the variables that cycle noise loops.
+ProcessingJS's noiseSeed() and randomSeed() don't change anything (I think this may be a bug) so the noise() seed is always the same. to counter this, I just added a random number to the variables that cycle noise loops.
 
 ### Biomes
 (this is a biome map)
