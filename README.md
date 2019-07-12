@@ -17,7 +17,4 @@ ProcessingJS's noiseSeed() and randomSeed() do not change anything (I think this
 | `desert` | <.45 | <.575 |
 | `grassland` | >.45 <.6 | <.575 |
 | `forest` | >.6 | <.575 |
-
-
-
-ree
+|--------------------------|
