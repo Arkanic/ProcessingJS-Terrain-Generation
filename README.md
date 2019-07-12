@@ -10,11 +10,11 @@ ProcessingJS's noiseSeed() and randomSeed() do not change anything (I think this
 
 
 | Name | Moisture | Height |
-|--------------------------|
+|------|----------|--------|
 | `water` | any | <.475 |
 | `sand` | any | >.475 <.5 |
 | `mountain` | any | <.575 |
 | `desert` | <.45 | <.575 |
 | `grassland` | >.45 <.6 | <.575 |
 | `forest` | >.6 | <.575 |
-|--------------------------|
+|----------|-----|-------|
