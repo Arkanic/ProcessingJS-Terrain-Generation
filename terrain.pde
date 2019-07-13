@@ -25,7 +25,7 @@ var xoffm = 0.0 + seed;
 for (var xm = 0; xm < width; xm++)
 {
   var yoffm = 0.0 + seed;
-  for (var ym = 0; ym < width; ym++)
+  for (var ym = 0; ym < height; ym++)
   {
     moisturemap[xm][ym] = noise(xoffm, yoffm);
     yoffm += 0.01;
