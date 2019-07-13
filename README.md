@@ -1,6 +1,8 @@
 # ProcessingJS-Terrain-Generation
 2d birds-eye terrain generation with ProcessingJS.
 
+A giant buggy mess, you should probably only try to run this with a supercomputer, as it has about 5 for loops that cycle through every pixel of the screen.
+
 you can run the code [here](https://www.openprocessing.org/sketch/736065) if you can't be bothered to ctrl c it to somewhere.
 
 ![Terrain-Generator](https://user-images.githubusercontent.com/50847107/61155398-f2b7c600-a544-11e9-9793-473b121add6a.png)
