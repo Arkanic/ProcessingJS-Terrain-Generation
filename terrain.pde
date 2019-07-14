@@ -8,6 +8,7 @@
 size(window.innerWidth, window.innerHeight);
 float[][] heightmap = new float[width][height];
 float[][] moisturemap = new float[width][height];
+void drawTerrain() {
 var seed = random(1, 10000);
 var xoffh = 0.0 + seed;
 for (var xh = 0; xh < width; xh++)
@@ -97,3 +98,8 @@ for (var dx = 0; dx < width; dx++)
     point(dx, dy);
   }
 }
+}
+void mousePressed() {
+  generateTerrain();
+}
+generateTerrain();
