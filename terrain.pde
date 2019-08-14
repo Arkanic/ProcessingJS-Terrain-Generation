@@ -10,13 +10,13 @@ float[][] heightmap = new float[width][height];
 float[][] moisturemap = new float[width][height];
 void drawTerrain() {
 var seed = random(1, 10000);
-var xoffh = 0.0 + seed;
+var xoffh = 0.0;
 for (var xh = 0; xh < width; xh++)
 {
-  var yoffh = 0.0 + seed;
+  var yoffh = 0.0;
   for (var yh = 0; yh < width; yh++)
   {
-    heightmap[xh][yh] = noise(xoffh, yoffh);
+    heightmap[xh][yh] = noise(xoffh, yoffh, seed);
     yoffh += 0.01;
   }
   xoffh += 0.01;
