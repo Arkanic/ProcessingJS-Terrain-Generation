@@ -95,7 +95,7 @@ for (var dx = 0; dx < width; dx++)
         }
       }
     }
-    point(dx, dy); // after all of the colour scheming, the code finally gets to draw the pixel. and this is only one.
+    point(dx, dy); // after all of the colour scheming, the code finally gets to draw the pixel. and this is only one pixel out of a couple of hundred thousand.
   }
 }
 }
