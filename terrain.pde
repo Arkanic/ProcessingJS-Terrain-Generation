@@ -100,6 +100,6 @@ for (var dx = 0; dx < width; dx++)
 }
 }
 void mousePressed() {
-  generateTerrain();
+  drawTerrain();
 }
-generateTerrain();
+drawTerrain();
